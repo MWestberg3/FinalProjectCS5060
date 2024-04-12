@@ -15,7 +15,7 @@ Predicting the economic strength of the United States of America in the next 10 
 -	The number of job offers do you receive in an arbitrary amount of time
 -	This will be based on a 36% interview-to-hire ratio from [Recruiting Metrics and KPIs- Career Plug](https://www.careerplug.com/blog/recruiting-metrics-and-kpis/) metrics in the United States.
 -	The current job market, as dictated by the predicted unemployment
--	Given a 6-month emergency funds for cost of living based on a Utah average monthly expense/cost of living report via [SOFIs COst of Living in Utah](https://www.sofi.com/cost-living-utah/)
+-	Given a 6-month emergency funds for cost of living based on a Utah average monthly expense/cost of living report via [SOFIs Cost of Living in Utah](https://www.sofi.com/cost-living-utah/)
 
 
 #### Insurance: ####
@@ -38,7 +38,7 @@ Given the result from Subtask 1, simulate a job searcher with the described requ
 -	The number of job offers do you receive in an arbitrary amount of time
 -	This will be based on a 36% interview-to-hire ratio from [Recruiting Metrics and KPIs- Career Plug](https://www.careerplug.com/blog/recruiting-metrics-and-kpis/) metrics in the United States.
 -	The current job market, as dictated by the predicted unemployment
--	Given a 6-month emergency funds for cost of living based on a Utah average monthly expense/cost of living report via [SOFIs COst of Living in Utah](https://www.sofi.com/cost-living-utah/)
+-	Given a 6-month emergency funds for cost of living based on a Utah average monthly expense/cost of living report via [SOFIs Cost of Living in Utah](https://www.sofi.com/cost-living-utah/)
 
 #### Subtask 3: Travel Insurance ####
 
@@ -47,7 +47,9 @@ Using the information learned in class and in the projects about insurance we wi
 
 ### Task Outcomes ###
 **ST1:** Predict the Unemployment Rate in the United States over the course of the next 10 years. This will also indicate the overall economic strength of the United States. The outcome allows us to better find ST2 results.
+
 **ST2:** Calculate the Optimal Stopping Point in a given job market as to when and if a potential employee should reject a job offer in hopes of receiving a more lucrative job offer.
+
 **ST3:** Calculate the optimal situation to opt into travel insurance. Essentially finding the risk of each situation and when is most likely that a claim would be filed in order to increase effective use of money.
 
 ### Task Impacts ###
