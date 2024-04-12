@@ -63,7 +63,7 @@ Because of the unknown risk that is associated with travel, the work on insuranc
 | 1        | European Call Options - US Job Market        | X                             | X      | X      |        |        |        |        |        |        |        |
 | 2        | Optimal Stopping Algorithm for Job Searching |                               |        |        | X      | X      | X      |        |        |        |        |
 | 3        | Insurance                                    |                               |        |        |        |        |        | X      | X      | X      | X      |
-|          | Milestones                                   |                               |        |        |        |        |        |        |        |        |        |
+|          | **Milestones**                                   |                               |        |        |        |        |        |        |        |        |        |
 | 1        | Calculate Job Market                         |                               |        | X      |        |        |        |        |        |        |        |
 | 2        | Calculate Optimal Stopping Point             |                               |        |        |        |        | X      |        |        |        |        |
 | 3        | Insurance                                    |                               |        |        |        |        |        |        |        |        | X      |
