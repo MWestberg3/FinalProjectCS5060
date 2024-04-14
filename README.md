@@ -14,7 +14,7 @@ Predicting the economic strength of the United States of America in the next 10 
 -	The number of jobs can you feasibly search for in an arbitrary amount of time
 -	The number of job offers do you receive in an arbitrary amount of time
 -	This will be based on a 36% interview-to-hire ratio from [Recruiting Metrics and KPIs- Career Plug](https://www.careerplug.com/blog/recruiting-metrics-and-kpis/) metrics in the United States.
--	The current job market, as dictated by the predicted unemployment
+-	The current and past employment data for the [Data Processing, Hosting, and Related Services: NAICS 518](https://www.bls.gov/iag/tgs/iag518.htm#workplace_trends) which includes Software Developers in the United States.
 -	Given a 6-month emergency funds for cost of living based on a Utah average monthly expense/cost of living report via [SOFIs Cost of Living in Utah](https://www.sofi.com/cost-living-utah/)
 
 
@@ -37,7 +37,7 @@ Given the result from Subtask 1, simulate a job searcher with the described requ
 -	The number of jobs can you feasibly search for in an arbitrary amount of time
 -	The number of job offers do you receive in an arbitrary amount of time
 -	This will be based on a 36% interview-to-hire ratio from [Recruiting Metrics and KPIs- Career Plug](https://www.careerplug.com/blog/recruiting-metrics-and-kpis/) metrics in the United States.
--	The current job market, as dictated by the predicted unemployment
+-	The current and past employment data for the [Data Processing, Hosting, and Related Services: NAICS 518](https://www.bls.gov/iag/tgs/iag518.htm#workplace_trends) which includes Software Developers in the United States.
 -	Given a 6-month emergency funds for cost of living based on a Utah average monthly expense/cost of living report via [SOFIs Cost of Living in Utah](https://www.sofi.com/cost-living-utah/)
 
 #### Subtask 3: Travel Insurance ####
