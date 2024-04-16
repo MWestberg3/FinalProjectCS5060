@@ -69,7 +69,7 @@ def graph_best_fit(data: list) -> dict:
     f.fit()
     f.summary()
 
-    plt.xlabel('All Employees, Thousands')
+    plt.xlabel('Change in Employed, Thousands')
     plt.ylabel('Frequency')
     plt.title('All Employees (Thousands) Over Time')
     plt.show()
@@ -89,36 +89,6 @@ class European_Call_Payoff:
         else:
             return 0
         
-class Gamma_motion:
-    def simulate_paths(self):
-        while (self.T - self.dt > 0):
-            dWt = np.random.gamma(shape=self.shape, scale=self.scale,) + self.loc # Gamma motion with shift to left of self.loc
-            dYt = self.drift * self.dt + self.volatility * dWt # Change in employment
-            self.current_job_outlook += dYt # Add the change to the current employment
-            self.employment.append(self.current_job_outlook) # Append new employment count to series
-            self.T -= self.dt # Account for the step in time
-
-    def __init__(self,
-                 initial_job_outlook,
-                 drift,
-                 volatility,
-                 dt,
-                 T,
-                 shape,
-                 loc,
-                 scale):
-        self.current_job_outlook = initial_job_outlook
-        self.initial_job_outlook = initial_job_outlook
-        self.drift = drift
-        self.volatility = volatility
-        self.dt = dt
-        self.T = T
-        self.shape = shape
-        self.loc = loc
-        self.scale = scale
-        self.employment = [] # Initializes an empty list ot store number employed
-        self.simulate_paths() # Start the simulation upon initialization
-
 class Burr_Motion:
     def simulate_paths(self):
         while (self.T - self.dt > 0):
