@@ -71,7 +71,7 @@ def graph_best_fit(data: list) -> dict:
 
     plt.xlabel('Change in Employed, Thousands')
     plt.ylabel('Frequency')
-    plt.title('All Employees (Thousands) Over Time')
+    plt.title('Frequency of Change in Employed')
     plt.show()
 
     best_fit = f.get_best(method='sumsquare_error')
