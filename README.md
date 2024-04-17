@@ -10,18 +10,28 @@ Project Proposal
 ### Task Description ###
 #### European Call Option and Optimal Stopping Algorithm ####
 
-Predicting the economic strength of the United States of America in the next 10 years using a European Call Option. By using current and past data of the American unemployment rate, we will aim to predict the strength of the US economy in the next 10 years. Once the strength of the economy is assessed, the data will enable us to calculate a stopping algorithm for job searching. Based upon the following criteria:
+Predicting the economic strength of the United States of America in the next 10 years using a European Call Option.
+By using current and past data of the American unemployment rate, we will aim to predict the strength of the US
+economy in the next 10 years. Once the strength of the economy is assessed, the data will enable us to calculate a
+stopping algorithm for job searching. Based upon the following criteria:
 -	The number of jobs can you feasibly search for in an arbitrary amount of time
 -	The number of job offers do you receive in an arbitrary amount of time
--	This will be based on a 36% interview-to-hire ratio from [Recruiting Metrics and KPIs- Career Plug](https://www.careerplug.com/blog/recruiting-metrics-and-kpis/) metrics in the United States.
--	The current and past employment data for the [Data Processing, Hosting, and Related Services: NAICS 518](https://www.bls.gov/iag/tgs/iag518.htm#workplace_trends) which includes Software Developers in the United States.
--	Given a 6-month emergency funds for cost of living based on a Utah average monthly expense/cost of living report via [SOFIs Cost of Living in Utah](https://www.sofi.com/cost-living-utah/)
+-	This will be based on a 36% interview-to-hire ratio from [Recruiting Metrics and KPIs-
+    Career Plug](https://www.careerplug.com/blog/recruiting-metrics-and-kpis/) metrics in the United States.
+-	The current and past employment data for the [Data Processing, Hosting, and Related Services: NAICS 518]
+    (https://www.bls.gov/iag/tgs/iag518.htm#workplace_trends) which includes Software Developers in the United States.
+-	Given a 6-month emergency funds for cost of living based on a Utah average monthly expense/cost of living
+    report via [SOFIs Cost of Living in Utah](https://www.sofi.com/cost-living-utah/)
 
 
 #### Insurance: ####
-Developing a basic pricing model for travel insurance. Using a dataset of travel insurance we will build a simple predictive model based on multiple factors about travel insurance and the buyers of the insurance. We will explore different relationships between multiple variables and how those variables influence the insurance. 
+Developing a basic pricing model for travel insurance. Using a dataset of travel insurance we will build a simple
+predictive model based on multiple factors about travel insurance and the buyers of the insurance. We will explore
+different relationships between multiple variables and how those variables influence the insurance.
 
-One of the main things we will be looking for is relationships between claims filed and the other variables. This will allow us to know if there is an optimal time to opt into the travel insurance vs not opting in. Similar to the midterm we will explore from different angles.
+One of the main things we will be looking for is relationships between claims filed and the other variables.
+This will allow us to know if there is an optimal time to opt into the travel insurance vs not opting in. Similar
+to the midterm we will explore from different angles.
 
 The dataset we will pull from will be from [Travel Insurance](kaggle.com).
 
@@ -29,7 +39,9 @@ The dataset we will pull from will be from [Travel Insurance](kaggle.com).
 
 #### Subtask 1: European Call Option on the US Unemployment Rate ####
 
-Using the European Call Option Algorithm, predict the US Unemployment rate over the course of the next 10 years. The data collected will ensure more accurate data in finding results to Subtask 2, and focus on current and future state of the United States’ Economy.
+Using the European Call Option Algorithm, predict the US Unemployment rate over the course of the next 10 years.
+The data collected will ensure more accurate data in finding results to Subtask 2, and focus on current and future
+state of the United States’ Economy.
 
 #### Subtask 2: Optimal Stopping Algorithm on the US Job Market ####
 
