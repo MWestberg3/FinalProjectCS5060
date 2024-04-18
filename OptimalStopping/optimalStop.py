@@ -57,7 +57,7 @@ def optimal_stop_pt_2(dict):
     iterations = 0
     net = [] # rewards
 
-    for experiment in range(100000):
+    for experiment in range(10000):
         iterations += 1
         keys = list(dict.keys())
         random.shuffle(keys)

@@ -26,6 +26,7 @@ for i in range(len(list)):
         data_list_2[str(list[i])] = i
 
 
+print(data_list)
 optimal_stop(data_list)
 optimal_stop_pt_2(data_list_2)
 
