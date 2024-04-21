@@ -79,6 +79,14 @@ def graph_best_fit(data: list) -> dict:
 
     return best_fit
 
+def calculate_year_by_year_growth(csv_file: str) -> float:
+    df = pd.read_csv(csv_file)
+    df.set_index('Year', inplace=True)
+
+    changes = df.diff(axis=0)
+
+    return np.mean(changes)
+
 class European_Call_Payoff:
     def __init__(self, strike: float):
         self.strike = strike
@@ -124,6 +132,7 @@ class Burr_Motion:
 if __name__ == "__main__":
     print("==== GRAPHING EMPLOYMENT IN DATA PROCESSING, HOSTING, AND RELATED SERVICES ====")
     graph_employment("EuropeanCallOption/data/Tech_Industry_Employment.csv")
+    print(f'Average Year-by-Year Industry Growth (Thousands): {calculate_year_by_year_growth("EuropeanCallOption/data/Tech_Industry_Employment.csv")}')
     flat_csv = flatten_csv("EuropeanCallOption/data/Tech_Industry_Employment.csv")
     employment_best_fit = graph_best_fit(flat_csv)
 
