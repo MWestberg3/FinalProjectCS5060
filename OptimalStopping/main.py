@@ -16,6 +16,9 @@ list = []
 data_list = []
 data_list_2 = {}
 
+# put in average jobs offers received out of the 1200 applications
+# also include in part 2 at what job offer your most likely to land a job
+
 
 for value in data:
     list.append(value)
@@ -26,15 +29,6 @@ for i in range(len(list)):
         data_list_2[str(list[i])] = i
 
 
-print(data_list)
 optimal_stop(data_list)
 optimal_stop_pt_2(data_list_2)
-
-
-
-
-
-
-
-
 
