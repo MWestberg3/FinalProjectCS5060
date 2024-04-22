@@ -3,7 +3,7 @@
 import math
 import random
 
-def optimal_stop(rand_set):
+def optimal_stop(rand_set, sp):
     solutions = 0
     sal = []
     opt_solutions = 0
@@ -20,7 +20,7 @@ def optimal_stop(rand_set):
                 optimal = rand_set[k]
 
         #read through first 37% and hold onto the highest value as 'max'
-        threshold = int(0.37 * length)
+        threshold = int(sp * length)
         max = 0
         for i in range(threshold):
             if rand_set[i] > max:
@@ -57,7 +57,7 @@ def optimal_stop_pt_2(dict):
     iterations = 0
     net = [] # rewards
 
-    for experiment in range(100000):
+    for experiment in range(10000):
         iterations += 1
         keys = list(dict.keys())
         random.shuffle(keys)
