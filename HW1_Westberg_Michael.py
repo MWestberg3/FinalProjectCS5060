@@ -116,6 +116,8 @@ def find_max_optimal_stopping_point(distribution):
         # plt.show()
     return max(optimal_found_count, key=optimal_found_count.get)
 
+
+
 def no_look_back(csv_list, optimal_stopping_point, max_value):
     stop = round(len(csv_list) * optimal_stopping_point)
     front_max = max(csv_list[0:stop])
